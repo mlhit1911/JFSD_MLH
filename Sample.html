@@ -1,0 +1,60 @@
+<html>
+<head>
+	<meta charset="UTF-*">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Flex Example </title>
+	<style>
+	.parent
+	{
+	display:flex;
+    /*justify-content:space-evenly;*/
+    /*height:100vh;
+    align-items:stretch;
+    flex-direction:column-reverse;
+    flex-wrap:wrap-reverse;*/
+	}
+	.common
+	{
+	 border:1 px solid gray;
+	 margin: 20px;
+	 padding: 20px;
+	}
+	.div1
+	{
+        background-color: brown;
+        order: 2;
+	}
+	.div2
+	{
+        background-color:red;
+        order: 10;
+	}
+	.div3
+	{
+        background-color:green;
+        order: 13;
+	}
+</style>
+</head>
+<BODY>
+	<div class="parent">
+		<div class="common div1"> Item 1 </div>
+		<div class="common div2"> Item 2 </div>
+		<div class="common div3"> Item 3 </div>
+        <div class="common div1"> Item 1 </div>
+		<div class="common div2"> Item 2 </div>
+		<div class="common div3"> Item 3 </div>
+        <div class="common div1"> Item 1 </div>
+		<div class="common div2"> Item 2 </div>
+		<div class="common div3"> Item 3 </div>
+        <div class="common div1"> Item 1 </div>
+		<div class="common div2"> Item 2 </div>
+		<div class="common div3"> Item 3 </div>
+        <div class="common div1"> Item 1 </div>
+		<div class="common div2"> Item 2 </div>
+		<div class="common div3"> Item 3 </div>
+        
+	</div>
+</body>
+</html>
+	
